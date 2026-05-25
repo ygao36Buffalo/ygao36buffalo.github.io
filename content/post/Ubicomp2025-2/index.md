@@ -34,7 +34,7 @@ Both papers focus on lower-limb motion analysis, but from complementary perspect
 
 Motion2Press addresses this gap by learning from IMU signals to reconstruct pressure-related information in a more lightweight and practical way. The work contributes a data-driven pipeline for estimating gait-relevant biomechanical signals using minimal wearable sensing, supporting more accessible motion analysis outside specialized labs.
 
-Publication page: [Motion2Press]({{< relref "publication/gao-motion2press-2025" >}})
+Publication page: [Motion2Press]({{< relref "publication/10-1145-3749499" >}})
 
 ### KineticsSense
 
@@ -42,7 +42,7 @@ Publication page: [Motion2Press]({{< relref "publication/gao-motion2press-2025" 
 
 KineticsSense combines IMU and plantar pressure data to estimate lower-limb electromyography (EMG) signals, enabling a richer representation of human movement. The system is evaluated across activities such as walking, running, squats, and jumps, with case studies highlighting its potential for rehabilitation assessment and athletic performance analysis.
 
-Publication page: [KineticsSense]({{< relref "publication/gao-kinesense-2025" >}})
+Publication page: [KineticsSense]({{< relref "publication/10-1145-3749462" >}})
 
 ## Looking Ahead
 
