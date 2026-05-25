@@ -1,14 +1,6 @@
 ---
 title: 'RageSense: Leveraging Acoustic Sensing and LLM-Based Intervention for Emotion Regulation in Mobile Gaming'
 authors:
-- Cong Liu
-- Ruihao Zheng
-- Junbin Ren
-- Kaiyi Guo
-- Qian Zhang
-- Dong She
-- Yuting Bai
-- Zhanpeng Jin
 - Yang Gao
 date: '2026-01-01'
 publishDate: '2026-01-01T00:00:00Z'
@@ -22,8 +14,4 @@ tags:
 - Acoustic Sensing
 - Mobile Gaming
 - Large Language Models
-links:
-- name: URL
-  url: https://doi.org/10.1145/3715275.3732120
-doi: 10.1145/3715275.3732120
 ---

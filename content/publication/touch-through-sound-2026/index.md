@@ -1,16 +1,6 @@
 ---
 title: 'Touch Through Sound: Ring-Mounted Auditory Pseudo-Haptics for Material Perception'
 authors:
-- Zhichao Huang
-- Yingjing Xiao
-- Ruihao Zheng
-- Zi Wang
-- Xudong Gao
-- Junbin Ren
-- Mengzi Jiang
-- Xueyi Zheng
-- Yuting Bai
-- Xiaojun Bi
 - Yang Gao
 date: '2026-01-01'
 publishDate: '2026-01-01T00:00:00Z'
@@ -24,8 +14,4 @@ tags:
 - Pseudo-Haptics
 - Material Perception
 - Ring Interfaces
-links:
-- name: URL
-  url: https://doi.org/10.1145/3715668.3736379
-doi: 10.1145/3715668.3736379
 ---
