@@ -1,7 +1,12 @@
 ---
 title: 'EmoType-Zero: Adaptive Fonts to Render the Speech Emotion'
 authors:
+- Dong She
+- Jinghe Yu
+- Nuo Chen
+- Yuting Bai
 - Yang Gao
+- Zhanpeng Jin
 date: '2026-01-01'
 publishDate: '2026-01-01T00:00:00Z'
 publication_types:

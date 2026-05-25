@@ -1,7 +1,16 @@
 ---
 title: 'Persona-E^2: A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events'
 authors:
+- Yuqin Yang
+- Haowu Zhou
+- Haoran Tu
+- Zhiwen Hui
+- Shiqi Yan
+- HaoYang Li
+- Dong She
+- Xianrong Yao
 - Yang Gao
+- Zhanpeng Jin
 date: '2026-01-01'
 publishDate: '2026-01-01T00:00:00Z'
 publication_types:
