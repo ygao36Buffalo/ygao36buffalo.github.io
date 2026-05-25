@@ -30,13 +30,19 @@ We are excited to share that our team has **three papers accepted to CHI 2026**:
 
 **RageSense** has been accepted as a **main conference paper** at CHI 2026. This work investigates how interactive systems can sense and understand rage-related affective states, contributing to our broader research agenda on affective computing, multimodal sensing, and human-centered AI.
 
+Publication page: [RageSense]({{< relref "publication/ragesense-2026" >}})
+
 ### Touch Through Sound
 
 **Touch Through Sound** has been accepted as a **poster paper** at CHI 2026. This project explores how acoustic sensing can support touch interaction, expanding the design space for lightweight, device-based, and context-aware interaction techniques.
 
+Publication page: [Touch Through Sound]({{< relref "publication/touch-through-sound-2026" >}})
+
 ### Emo-Type-Zero
 
 **Emo-Type-Zero** has been accepted as a **poster paper** at CHI 2026. This work studies emotion-aware text entry and interaction, asking how subtle behavioral signals around typing can help future systems better understand and respond to users' emotional states.
+
+Publication page: [EmoType-Zero]({{< relref "publication/emotype-zero-2026" >}})
 
 ## Looking Ahead
 
