@@ -148,8 +148,8 @@ main,
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 240px;
-  gap: 36px;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 40px;
   align-items: center;
   min-height: 240px;
   padding: 18px 0 22px;
@@ -296,7 +296,7 @@ h2 {
 
 .portrait-wrap img {
   display: block;
-  width: 220px;
+  width: 280px;
   aspect-ratio: 11 / 13;
   object-fit: cover;
   border: 1px solid var(--line);
