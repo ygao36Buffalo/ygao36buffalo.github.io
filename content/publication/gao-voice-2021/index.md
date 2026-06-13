@@ -11,8 +11,7 @@ date: '2021-03-01'
 publishDate: '2025-07-06T09:47:45.900480Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3448113
 abstract: With the rapid growth of wearable computing and increasing demand for mobile
   authentication scenarios, voiceprint-based authentication has become one of the

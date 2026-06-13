@@ -15,7 +15,7 @@ date: '2020-07-01'
 publishDate: '2025-07-06T09:47:45.867697Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Instrumentation and Measurement*'
+publication: '*IEEE Transactions on Instrumentation and Measurement (IEEE TIM)*'
 doi: 10.1109/TIM.2019.2949320
 abstract: Noninvasive sensors capable of measuring weak biopotential signals, such
   as electrocardiogram (ECG) and EEG, and communicating results wirelessly to a host

@@ -15,8 +15,7 @@ date: '2024-11-01'
 publishDate: '2025-07-06T09:47:45.931620Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3699773
 abstract: 'The accurate assessment of human body posture through wearable technology
   has significant implications for sports science, clinical diagnostics, rehabilitation,

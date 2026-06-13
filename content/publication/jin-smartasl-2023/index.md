@@ -13,8 +13,7 @@ date: '2023-06-01'
 publishDate: '2025-07-06T09:47:45.908386Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3596255
 abstract: Sign language builds up an important bridge between the d/Deaf and hard-of-hearing
   (DHH) and hearing people. Regrettably, most hearing people face challenges in comprehending

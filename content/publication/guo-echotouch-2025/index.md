@@ -11,8 +11,7 @@ date: '2025-06-01'
 publishDate: '2025-07-06T09:47:45.831638Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3729481
 abstract: Accurately recognizing face-touching behavior at any time and place can
   help prevent potential health risks and improve personal habits. However, there

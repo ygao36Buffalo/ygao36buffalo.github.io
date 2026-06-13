@@ -8,8 +8,7 @@ date: '2025-04-01'
 publishDate: '2025-07-06T09:47:45.884592Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the Extended Abstracts of the CHI Conference on Human
-  Factors in Computing Systems*'
+publication: '*Extended Abstracts of the 2025 CHI Conference on Human Factors in Computing Systems (CHI 2025 Extended Abstracts)*'
 doi: 10.1145/3706599.3720220
 abstract: Hand pose tracking is essential for advancing applications in humancomputer
   interaction. Current approaches, such as vision-based systems and wearable devices,

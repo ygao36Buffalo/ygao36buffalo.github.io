@@ -1,5 +1,5 @@
 ---
-title: Computer Organization (Offered Every Spring)
+title: Computer Organization
 summary: Dive deep into how computers work, from the fundamental bits to complex systems architecture.
 date: 2024-02-01 # 可以是课程开设的日期或你的入职日期
 type: docs

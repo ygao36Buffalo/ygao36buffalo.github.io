@@ -13,8 +13,7 @@ date: '2022-07-01'
 publishDate: '2025-07-06T09:47:45.947554Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3534613
 abstract: Intelligent speech interfaces have been developing vastly to support the
   growing demands for convenient control and interaction with wearable/earable and

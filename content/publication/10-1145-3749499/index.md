@@ -12,7 +12,7 @@ date: '2025-09-01'
 publishDate: '2025-10-09T11:53:01.586001Z'
 publication_types:
 - article-journal
-publication: '*Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3749499
 abstract: Human locomotion is a fundamental aspect of daily life and a critical indicator
   of overall health. This study proposes a cross-modal learning framework based on

@@ -12,7 +12,7 @@ date: '2023-08-01'
 publishDate: '2025-07-06T09:47:45.850058Z'
 publication_types:
 - article-journal
-publication: '*IEEE Journal of Biomedical and Health Informatics*'
+publication: '*IEEE Journal of Biomedical and Health Informatics (IEEE JBHI)*'
 doi: 10.1109/JBHI.2023.3276629
 abstract: Automated detection of intake gestures with wearable sensors has been a
   critical area of research for advancing our understanding and ability to intervene

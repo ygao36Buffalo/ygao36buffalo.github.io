@@ -13,8 +13,7 @@ date: '2021-12-01'
 publishDate: '2025-07-06T09:47:45.916115Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3494988
 abstract: Accurate recognition of facial expressions and emotional gestures is promising
   to understand the audience's feedback and engagement on the entertainment content.

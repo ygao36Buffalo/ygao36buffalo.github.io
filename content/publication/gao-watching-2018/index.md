@@ -12,8 +12,7 @@ date: '2018-09-01'
 publishDate: '2025-07-06T09:47:45.955481Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3264918
 abstract: The increasing adoption of 3D printing in many safety and mission critical
   applications exposes 3D printers to a variety of cyber attacks that may result in

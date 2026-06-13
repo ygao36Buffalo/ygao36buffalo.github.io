@@ -11,8 +11,7 @@ date: '2020-09-01'
 publishDate: '2025-07-06T09:47:45.971330Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3411830
 abstract: 'With the rapid growth of artificial intelligence and mobile computing,
   intelligent speech interface has recently become one of the prevalent trends and

@@ -11,7 +11,7 @@ date: '2021-01-01'
 publishDate: '2025-07-06T09:47:45.876350Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Information Forensics and Security*'
+publication: '*IEEE Transactions on Information Forensics and Security (IEEE TIFS)*'
 doi: 10.1109/TIFS.2021.3065225
 abstract: To address the increasing challenges of counterfeit detection and IP protection
   for 3D printing, we propose that every 3D printer holds unique fingerprinting features

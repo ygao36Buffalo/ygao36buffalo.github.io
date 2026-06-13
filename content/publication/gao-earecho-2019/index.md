@@ -10,9 +10,10 @@ date: '2019-09-01'
 publishDate: '2025-07-06T09:47:45.963741Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3351239
+awards:
+- IMWUT 2020 Distinguished Papers Nominee
 abstract: Smart wearable devices have recently become one of the major technological
   trends and been widely adopted by the general public. Wireless earphones, in particular,
   have seen a skyrocketing growth due to its great usability and convenience. With
@@ -32,3 +33,5 @@ links:
 - name: URL
   url: https://dl.acm.org/doi/10.1145/3351239
 ---
+
+**Recognition:** IMWUT 2020 Distinguished Papers Nominee

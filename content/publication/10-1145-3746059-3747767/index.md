@@ -13,8 +13,7 @@ date: '2025-10-01'
 publishDate: '2025-10-09T11:53:01.574588Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 38th Annual ACM Symposium on User Interface Software
-  and Technology*'
+publication: '*Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology (UIST 2025)*'
 doi: 10.1145/3746059.3747767
 abstract: 'Hand pose tracking is essential for advancing applications in human-computer
   interaction. Current approaches, such as vision-based systems and wearable devices,

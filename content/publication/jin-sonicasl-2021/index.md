@@ -15,8 +15,7 @@ date: '2021-06-01'
 publishDate: '2025-07-06T09:47:45.923814Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3463519
 abstract: 'We propose SonicASL, a real-time gesture recognition system that can recognize
   sign language gestures on the fly, leveraging front-facing microphones and speakers

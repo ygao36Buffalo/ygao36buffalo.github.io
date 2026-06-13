@@ -10,12 +10,14 @@ authors:
 - Changbo Wang
 - Yang Gao
 - Chen Li
+corresponding_authors:
+- Yang Gao
+- Chen Li
 date: '2025-01-01'
 publishDate: '2025-07-06T09:58:50.000819Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 2025 CHI Conference on Human Factors in Computing
-  Systems*'
+publication: '*Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI 2025)*'
 doi: 10.1145/3706598.3714275
 abstract: Sand painting is a highly aesthetic and valuable form of art but often constrained
   by the need for specific equipment and the associated learning curve. To address

@@ -29,7 +29,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:gaoyang@cs.ecnu.edu.cn'
+    url: 'mailto:gaoyang2025@scut.edu.cn'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/ygao36Buffalo
@@ -97,6 +97,6 @@ work:
 
 ## About Me
 
-Yang Gao is an Associate Professor in the School of Future Technology at South China University of Technology (SCUT). Prior to my current role, I gained valuable experience as Research Professor at East China Normal University from September 2022 to August 2025 and a Postdoctoral Researcher at Northwestern University (Evanston) from 2021 to 2022. His research interests include Human-Computer Interaction, Human-Robot Interaction, Wearable Computing, and AI. He leads the Human-Computer Interaction group at SCUT. 
+Yang Gao is an Associate Professor in the School of Future Technology at South China University of Technology (SCUT). Prior to his current role, he was a Research Professor at East China Normal University from September 2022 to August 2025 and a Postdoctoral Researcher at Northwestern University from 2021 to 2022. His research interests include Human-Computer Interaction, Human-Robot Interaction, Wearable Computing, and human-centered AI. He leads the Human-Computer Interaction group at SCUT. He has been selected for the Shanghai Leading Talent Program (Overseas Young Talents) and the Guangzhou Innovation and Entrepreneurship Young Top Talent Program, and serves as principal investigator of a Young Scientists Fund project supported by the National Natural Science Foundation of China. He currently serves as an Associate Editor of ACM IMWUT, a guest editor for special issues of multiple international journals, and an executive committee member of the CCF Technical Committees on Pervasive Computing and Human-Computer Interaction.
 
 Contact: gaoyang2025 [AT] scut.edu.cn

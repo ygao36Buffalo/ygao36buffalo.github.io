@@ -1,5 +1,5 @@
 ---
-title: Data Visualization & Interaction  (Offered Every Fall)
+title: Data Visualization & Interaction
 summary: Learn to transform raw data into compelling, interactive visual narratives that drive insights.
 date: 2024-09-01 # 可以是课程开设的日期或你的入职日期
 type: docs

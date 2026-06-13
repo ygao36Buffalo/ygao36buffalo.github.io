@@ -17,8 +17,7 @@ date: '2023-09-01'
 publishDate: '2025-07-06T09:47:45.892128Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3610881
 abstract: Sign language is a natural language widely used by Deaf and hard of hearing
   (DHH) individuals. Advanced wearables are developed to recognize sign language automatically.

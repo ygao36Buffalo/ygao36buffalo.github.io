@@ -12,8 +12,7 @@ date: '2022-07-01'
 publishDate: '2025-07-06T09:47:45.939778Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
-  Technologies*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 doi: 10.1145/3534597
 abstract: Recognition of facial expressions has been widely explored to represent
   people's emotional states. Existing facial expression recognition systems primarily

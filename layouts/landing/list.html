@@ -1,0 +1,300 @@
+{{- $author := site.GetPage "authors/admin" -}}
+{{- $photo := "" -}}
+{{- with $author -}}
+  {{- with .Resources.GetMatch "avatar*" -}}
+    {{- $photo = (.Fill "320x380 Center").RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- $style := resources.Get "css/yang-home.css" | minify | fingerprint -}}
+{{- $posts := sort (where site.RegularPages "Section" "post") "Date" "desc" -}}
+{{- $pubs := sort (where site.RegularPages "Section" "publication") "Date" "desc" -}}
+{{- $recentPubs := where $pubs "Date" "ge" (time "2024-01-01") -}}
+{{- $olderPubs := where $pubs "Date" "lt" (time "2024-01-01") -}}
+{{- $projects := sort (where site.RegularPages "Section" "project") "Date" "desc" -}}
+{{- $courses := sort (where site.RegularPages "Section" "teaching") "Date" "desc" -}}
+{{- $nameEn := printf "%s %s" $author.Params.first_name $author.Params.last_name -}}
+<!doctype html>
+<html lang="{{ site.Language.Lang | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.Params.marketing.seo.description | default "Yang Gao's academic homepage." }}">
+  <meta name="author" content="{{ $nameEn }}">
+  <meta name="theme-color" content="#0b6f69">
+  {{ hugo.Generator }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;850&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  <title>{{ site.Title }} | {{ $author.Params.role }} at South China University of Technology</title>
+</head>
+<body id="top">
+  <nav class="top-nav" aria-label="Primary navigation">
+    <a class="brand-link" href="#top">{{ site.Title }}</a>
+    <div class="nav-links">
+      <a href="#news">News</a>
+      <a href="#biography">Bio</a>
+      <a href="#research">Research</a>
+      <a href="#openings">Openings</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="/gallery/">Gallery</a>
+    </div>
+  </nav>
+
+  <header class="site-header">
+    <section class="hero" aria-label="Profile">
+      <div class="hero-copy">
+        <p class="eyebrow">Human-Centered AI · Wearable Intelligence · Human-Robot Interaction</p>
+        <h1>{{ $nameEn }} <span>{{ $author.Title }}</span></h1>
+        <p class="hero-title">{{ $author.Params.role }}</p>
+        {{- with index $author.Params.organizations 0 -}}
+          <p class="hero-affiliation">{{ .name }}</p>
+        {{- end -}}
+        <div class="hero-summary" id="biography">
+          <p>Yang Gao is an Associate Professor in the School of Future Technology at South China University of Technology (SCUT). Prior to his current role, he was a Research Professor at East China Normal University from September 2022 to August 2025 and a Postdoctoral Researcher at Northwestern University from 2021 to 2022. His research interests include Human-Computer Interaction, Human-Robot Interaction, Wearable Computing, and human-centered AI. He leads the Human-Computer Interaction group at SCUT. He has been selected for the Shanghai Leading Talent Program (Overseas Young Talents) and the Guangzhou Innovation and Entrepreneurship Young Top Talent Program, and serves as principal investigator of a Young Scientists Fund project supported by the National Natural Science Foundation of China. He currently serves as an Associate Editor of ACM IMWUT, a guest editor for special issues of multiple international journals, and an executive committee member of the CCF Technical Committees on Pervasive Computing and Human-Computer Interaction.</p>
+        </div>
+        <div class="contact-list" aria-label="Contact information">
+          <a href="mailto:gaoyang2025@scut.edu.cn">gaoyang2025 [AT] scut.edu.cn</a>
+          {{- range $author.Params.profiles -}}
+            {{- if ne .icon "at-symbol" -}}
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ cond (in .icon "google-scholar") "Google Scholar" (cond (in .icon "orcid") "ORCID" (cond (in .icon "github") "GitHub" (.label | default "Profile"))) }}</a>
+            {{- end -}}
+          {{- end -}}
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="#publications">Publications</a>
+          <a class="button" href="#openings">Openings</a>
+          <a class="button" href="/uploads/resume.pdf">CV</a>
+        </div>
+        <div class="metrics" aria-label="Site content summary">
+          <div><strong>{{ len $pubs }}</strong><span>Publications</span></div>
+          <div><strong>{{ len $projects }}</strong><span>Projects</span></div>
+          <div><strong>{{ len $posts }}</strong><span>News Updates</span></div>
+        </div>
+      </div>
+      {{- with $photo -}}
+        <figure class="portrait-wrap">
+          <img src="{{ . }}" alt="{{ $nameEn }}" width="160" height="190">
+        </figure>
+      {{- end -}}
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="news">
+      <div class="section-heading">
+        <p class="eyebrow">Updates</p>
+        <h2>News</h2>
+      </div>
+      <ul class="news-list">
+        {{- range first 8 $posts -}}
+          <li>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+            <div>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              {{- with .Summary -}}<p>{{ . | plainify | truncate 180 }}</p>{{- end -}}
+            </div>
+          </li>
+        {{- end -}}
+      </ul>
+    </section>
+
+    <section class="section accent-section" id="openings">
+      <div class="section-heading">
+        <p class="eyebrow">Students</p>
+        <h2>Openings / Internship</h2>
+      </div>
+      <div class="opening-content">
+        <p>I am looking for self-motivated Ph.D. and Master's students with backgrounds in Artificial Intelligence, Robotics, Human-Computer Interaction, wearable systems, sensing hardware, or circuit design.</p>
+        <p>Interested students are welcome to contact me at <a href="mailto:gaoyang2025@scut.edu.cn">gaoyang2025 [AT] scut.edu.cn</a> with a brief research statement and CV.</p>
+      </div>
+    </section>
+
+    <section class="section compact-grid">
+      <div id="education" class="info-block">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Education</h2>
+        </div>
+        <ul class="clean-list">
+          {{- range $author.Params.education -}}
+            <li><strong>{{ .area }}</strong>, {{ .institution }} <span>{{ dateFormat "2006" .date_start }}{{ with .date_end }}-{{ dateFormat "2006" . }}{{ end }}</span></li>
+          {{- end -}}
+        </ul>
+      </div>
+
+      <div id="working" class="info-block">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Work</h2>
+        </div>
+        <ul class="clean-list">
+          {{- range $author.Params.work -}}
+            <li><strong>{{ .position }}</strong>, {{ .institution }} <span>{{ dateFormat "2006" .date_start }}{{ with .date_end }}-{{ dateFormat "2006" . }}{{ end }}</span></li>
+          {{- end -}}
+          <li><strong>{{ $author.Params.role }}</strong>, South China University of Technology <span>2025-present</span></li>
+        </ul>
+      </div>
+
+      <div id="teaching" class="info-block">
+        <div class="section-heading">
+          <p class="eyebrow">Courses</p>
+          <h2>Teaching</h2>
+        </div>
+        <ul class="clean-list">
+          {{- range $courses -}}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{- end -}}
+        </ul>
+      </div>
+    </section>
+
+    <section class="section split-section" id="research">
+      <div class="section-heading">
+        <p class="eyebrow">Research</p>
+        <h2>Research Interests</h2>
+      </div>
+      <div class="section-body">
+        <p class="lead">My research lies at the intersection of Human-Computer Interaction and Ubiquitous Computing. I study how wearable sensing, physiological signals, motion data, and multimodal large language models can support activity understanding, intent inference, affect-aware interaction, and human-robot collaboration.</p>
+        <ul class="tag-list">
+          {{- range $author.Params.interests -}}
+            <li>{{ . }}</li>
+          {{- end -}}
+          <li>Wearable Computing</li>
+          <li>Affective Computing</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section publications-section" id="publications">
+      <div class="section-heading">
+        <p class="eyebrow">Output</p>
+        <h2>Selected Publications <small class="publication-count">{{ len $pubs }}</small></h2>
+      </div>
+      <p class="publication-meta">Publications are grouped by year. Yang Gao is highlighted in author lists.</p>
+      <nav class="year-nav" aria-label="Publication years">
+        {{- range $recentPubs.GroupByDate "2006" -}}
+          <a href="#pub-{{ .Key }}">{{ .Key }}</a>
+        {{- end -}}
+        <a href="#pub-before-2024">2023 and Earlier</a>
+      </nav>
+      {{- range $recentPubs.GroupByDate "2006" -}}
+        <div class="publication-section">
+          <h3 id="pub-{{ .Key }}">{{ .Key }}</h3>
+          <span>{{ len .Pages }} papers</span>
+        </div>
+        <div class="publication-list">
+          {{- range .Pages -}}
+            {{- $publication := . -}}
+            <article class="publication-item">
+              <div class="publication-image" aria-hidden="true">
+                <div class="pub-year-card">{{ .Date.Format "2006" }}</div>
+              </div>
+              <div class="publication-content">
+                <h4 class="publication-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                <p class="publication-authors">
+                  {{- range $idx, $person := .Params.authors -}}
+                    {{- if $idx }}, {{ end -}}
+                    {{- if or (eq $person "Yang Gao") (eq $person "高杨") -}}
+                      <strong>{{ $person }}</strong>{{- if in $publication.Params.corresponding_authors $person -}}<sup>*</sup>{{- end -}}
+                    {{- else -}}
+                      {{ $person }}{{- if in $publication.Params.corresponding_authors $person -}}<sup>*</sup>{{- end -}}
+                    {{- end -}}
+                  {{- end -}}
+                </p>
+                {{- with .Params.publication -}}<p class="publication-venue">{{ . | markdownify }}</p>{{- end -}}
+                {{- with .Params.awards -}}
+                  <div class="publication-awards">
+                    {{- range . -}}<span>{{ . }}</span>{{- end -}}
+                  </div>
+                {{- end -}}
+                {{- with .Params.abstract -}}<p class="publication-abstract">{{ . | plainify | truncate 260 }}</p>{{- end -}}
+                <div class="publication-actions">
+                  <a href="{{ .RelPermalink }}">Details</a>
+                  {{- with .Params.doi -}}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer">DOI</a>{{- end -}}
+                  {{- range .Params.links -}}
+                    {{- $label := default "URL" .name -}}
+                    {{- with .url -}}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>{{- end -}}
+                  {{- end -}}
+                </div>
+              </div>
+            </article>
+          {{- end -}}
+        </div>
+      {{- end -}}
+      <div class="publication-section">
+        <h3 id="pub-before-2024">2023 and Earlier</h3>
+        <span>{{ len $olderPubs }} papers</span>
+      </div>
+      <div class="publication-list">
+        {{- range $olderPubs -}}
+          {{- $publication := . -}}
+          <article class="publication-item">
+            <div class="publication-image" aria-hidden="true">
+              <div class="pub-year-card">{{ .Date.Format "2006" }}</div>
+            </div>
+            <div class="publication-content">
+              <h4 class="publication-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+              <p class="publication-authors">
+                {{- range $idx, $person := .Params.authors -}}
+                  {{- if $idx }}, {{ end -}}
+                  {{- if or (eq $person "Yang Gao") (eq $person "高杨") -}}
+                    <strong>{{ $person }}</strong>{{- if in $publication.Params.corresponding_authors $person -}}<sup>*</sup>{{- end -}}
+                  {{- else -}}
+                    {{ $person }}{{- if in $publication.Params.corresponding_authors $person -}}<sup>*</sup>{{- end -}}
+                  {{- end -}}
+                {{- end -}}
+              </p>
+              {{- with .Params.publication -}}<p class="publication-venue">{{ . | markdownify }}</p>{{- end -}}
+              {{- with .Params.awards -}}
+                <div class="publication-awards">
+                  {{- range . -}}<span>{{ . }}</span>{{- end -}}
+                </div>
+              {{- end -}}
+              {{- with .Params.abstract -}}<p class="publication-abstract">{{ . | plainify | truncate 260 }}</p>{{- end -}}
+              <div class="publication-actions">
+                <a href="{{ .RelPermalink }}">Details</a>
+                {{- with .Params.doi -}}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer">DOI</a>{{- end -}}
+                {{- range .Params.links -}}
+                  {{- $label := default "URL" .name -}}
+                  {{- with .url -}}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>{{- end -}}
+                {{- end -}}
+              </div>
+            </div>
+          </article>
+        {{- end -}}
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Systems</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-grid">
+        {{- range first 3 $projects -}}
+          {{- $project := . -}}
+          <article class="project-card">
+            {{- with .Resources.GetMatch "featured.*" -}}
+              <img src="{{ (.Fill "720x420 Center").RelPermalink }}" alt="{{ $project.Title }}">
+            {{- end -}}
+            <div>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p>{{ .Summary | plainify | truncate 180 }}</p>
+            </div>
+          </article>
+        {{- end -}}
+      </div>
+      <p class="section-link"><a href="/projects/">View all projects</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#top">Back to top</a>
+    <span>© {{ now.Format "2006" }} Yang Gao</span>
+  </footer>
+</body>
+</html>
