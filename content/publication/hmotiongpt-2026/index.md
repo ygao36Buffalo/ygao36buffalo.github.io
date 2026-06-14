@@ -6,6 +6,7 @@ authors:
 - Wolin Liang
 - Chiyue Wang
 - Yingjing Xiao
+- Xianrong Yao
 - Cong Liu
 - Zhichao Huang
 - Zhanpeng Jin
@@ -13,8 +14,14 @@ date: '2026-01-01'
 publishDate: '2026-01-01T00:00:00Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)* (to appear)'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 abstract: HMotionGPT studies how smart-ring motion signals can be aligned with natural language to support activity understanding. The work explores a language-grounded representation of hand motion, enabling wearable systems to reason about fine-grained activities through both sensor data and semantic descriptions. By connecting motion patterns from rings with textual knowledge, HMotionGPT points toward more interpretable and flexible wearable intelligence for everyday activity sensing.
+doi: 10.1145/3729543
+links:
+- name: Code
+  url: https://github.com/SCUT-HAI/HMotionGPT
+- name: Project
+  url: /project/hmotiongpt/
 tags:
 - Smart Rings
 - Hand Motion
