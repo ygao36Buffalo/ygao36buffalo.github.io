@@ -1,5 +1,5 @@
 ---
-title: "HMotionGPT Accepted to ACM IMWUT"
+title: "HMotionGPT Accepted to ACM IMWUT 2026"
 summary: "Our paper, \"HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings,\" has been accepted to ACM IMWUT and will be presented at UbiComp 2026 in Shanghai."
 date: 2026-06-17
 

@@ -16,7 +16,7 @@ publication_types:
 - article-journal
 publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
 abstract: HMotionGPT studies how smart-ring motion signals can be aligned with natural language to support activity understanding. The work explores a language-grounded representation of hand motion, enabling wearable systems to reason about fine-grained activities through both sensor data and semantic descriptions. By connecting motion patterns from rings with textual knowledge, HMotionGPT points toward more interpretable and flexible wearable intelligence for everyday activity sensing.
-doi: 10.1145/3729543
+doi: 10.1145/3810222
 links:
 - name: Code
   url: https://github.com/SCUT-HAI/HMotionGPT

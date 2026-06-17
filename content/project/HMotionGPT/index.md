@@ -46,5 +46,5 @@ The aligned model supports several forms of activity understanding, from recogni
 ## Resources
 
 - **Open-Source Code:** [SCUT-HAI/HMotionGPT on GitHub](https://github.com/SCUT-HAI/HMotionGPT)
-- **Paper:** [ACM Digital Library](https://dl.acm.org/doi/10.1145/3729543)
+- **Paper:** [ACM Digital Library](https://dl.acm.org/doi/10.1145/3810222)
 - **License:** [MIT License](https://github.com/SCUT-HAI/HMotionGPT/blob/main/LICENSE)
