@@ -1,5 +1,5 @@
 ---
-title: "Two Papers Accepted to ACM IMWUT 2026"
+title: "Two New Papers Accepted to ACM IMWUT 2026"
 summary: "Two of our papers, \"HoloHand: Bidirectional Motion–Language Modeling for Semantic Hand Interaction in Immersive Environments\" and \"EmbodiedRecall: A Ring-to-Glasses System for Preserving Valuable, Fleeting Moments in Daily Activities,\" have been accepted to ACM IMWUT and will be presented at UbiComp 2026."
 date: 2026-07-04T00:30:00+08:00
 
