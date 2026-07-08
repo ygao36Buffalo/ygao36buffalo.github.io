@@ -21,7 +21,7 @@ links:
 - name: Code
   url: https://github.com/SCUT-HAI/HMotionGPT
 - name: Project
-  url: /project/hmotiongpt/
+  url: https://github.com/SCUT-HAI/HMotionGPT
 tags:
 - Smart Rings
 - Hand Motion

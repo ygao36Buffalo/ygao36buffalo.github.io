@@ -278,12 +278,14 @@
       <div class="project-grid">
         {{- range first 3 $projects -}}
           {{- $project := . -}}
+          {{- $projectURL := .Params.external_link | default .RelPermalink -}}
+          {{- $isExternalProject := hasPrefix $projectURL "http" -}}
           <article class="project-card">
             {{- with .Resources.GetMatch "featured.*" -}}
               <img src="{{ (.Fill "720x420 Center").RelPermalink }}" alt="{{ $project.Title }}">
             {{- end -}}
             <div>
-              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <h3><a href="{{ $projectURL }}"{{ if $isExternalProject }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Title }}</a></h3>
               <p>{{ .Summary | plainify | truncate 180 }}</p>
             </div>
           </article>
