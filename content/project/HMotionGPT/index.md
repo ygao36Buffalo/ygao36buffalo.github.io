@@ -2,6 +2,7 @@
 title: "HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings"
 summary: "An open-source multimodal framework that aligns smart-ring IMU signals with natural language for hand-centric activity understanding."
 date: 2026-04-07
+layout: external-redirect
 external_link: https://github.com/SCUT-HAI/HMotionGPT
 tags:
   - Open Source

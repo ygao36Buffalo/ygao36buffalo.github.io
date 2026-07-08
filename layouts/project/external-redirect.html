@@ -1,0 +1,14 @@
+{{- $target := .Params.external_link | default "/" -}}
+<!doctype html>
+<html lang="{{ site.Language.Lang | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url={{ $target }}">
+  <link rel="canonical" href="{{ $target }}">
+  <title>{{ .Title }} | {{ site.Title }}</title>
+</head>
+<body>
+  <p><a href="{{ $target }}">Continue to {{ .Title }}</a></p>
+</body>
+</html>
