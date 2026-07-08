@@ -26,4 +26,4 @@ HMotionGPT studies how smart-ring motion signals can be aligned with natural lan
 
 Publication page: [HMotionGPT]({{< relref "publication/hmotiongpt-2026" >}})
 
-Project page: [HMotionGPT Open-Source Project]({{< relref "project/HMotionGPT" >}})
+Project page: [HMotionGPT Open-Source Project](https://scut-hai.github.io/HMotionGPT/)
