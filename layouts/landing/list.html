@@ -179,7 +179,7 @@
         <p class="eyebrow">Output</p>
         <h2>Selected Publications <small class="publication-count">{{ len $pubs }}</small></h2>
       </div>
-      <p class="publication-meta">Publications are grouped by year. Yang Gao is highlighted in author lists.</p>
+      <p class="publication-meta">Publications are grouped by year. Yang Gao is highlighted in author lists. † Equal contribution. * Corresponding author.</p>
       <nav class="year-nav" aria-label="Publication years">
         {{- range $recentPubs.GroupByDate "2006" -}}
           <a href="#pub-{{ .Key }}">{{ .Key }}</a>
@@ -208,6 +208,7 @@
                     {{- else -}}
                       {{ $person }}{{- if in $publication.Params.corresponding_authors $person -}}<sup>*</sup>{{- end -}}
                     {{- end -}}
+                    {{- if in $publication.Params.equal_contribution_authors $person -}}<sup>†</sup>{{- end -}}
                   {{- end -}}
                 </p>
                 {{- with .Params.publication -}}<p class="publication-venue">{{ . | markdownify }}</p>{{- end -}}
