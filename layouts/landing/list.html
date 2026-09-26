@@ -107,7 +107,11 @@
             <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
             <div>
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              {{- with .Summary -}}<p>{{ . | plainify | truncate 180 }}</p>{{- end -}}
+              {{- with .Params.summary -}}
+                <p>{{ . | truncate 180 | markdownify }}</p>
+              {{- else -}}
+                {{- with .Summary -}}<p>{{ . | plainify | truncate 180 }}</p>{{- end -}}
+              {{- end -}}
             </div>
           </li>
         {{- end -}}
