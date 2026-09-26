@@ -14,7 +14,7 @@ corresponding_authors:
 - Yang Gao
 author_notes:
 - ''
-- 'Corresponding author'
+- ''
 - ''
 - ''
 - ''
@@ -38,5 +38,3 @@ tags:
 - Sensorimotor Coordination
 - Wearable Computing
 ---
-
-**Corresponding author:** Yang Gao.

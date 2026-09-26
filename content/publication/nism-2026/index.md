@@ -15,7 +15,7 @@ author_notes:
 - ''
 - ''
 - ''
-- 'Corresponding author'
+- ''
 date: '2026-09-26'
 publishDate: '2026-09-26T00:00:00+08:00'
 publication_types:
@@ -30,5 +30,3 @@ tags:
 - EMG
 - Wearable Computing
 ---
-
-**Corresponding author:** Zhanpeng Jin.

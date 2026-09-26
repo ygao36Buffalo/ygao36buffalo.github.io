@@ -28,7 +28,7 @@ author_notes:
 - ''
 - ''
 - ''
-- 'Corresponding author'
+- ''
 date: '2026-07-04'
 publishDate: '2026-09-26T00:00:00+08:00'
 publication_types:
@@ -46,5 +46,3 @@ tags:
 ---
 
 † **Equal contribution:** Zhichao Huang and Yingnian Guo.
-
-**Corresponding author:** Yang Gao.

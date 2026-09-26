@@ -16,7 +16,7 @@ author_notes:
 - 'Equal contribution'
 - 'Equal contribution'
 - ''
-- 'Corresponding author'
+- ''
 - ''
 - ''
 date: '2026-07-04'
@@ -36,5 +36,3 @@ tags:
 ---
 
 † **Equal contribution:** Yingjing Xiao and Wolin Liang.
-
-**Corresponding author:** Yang Gao.
