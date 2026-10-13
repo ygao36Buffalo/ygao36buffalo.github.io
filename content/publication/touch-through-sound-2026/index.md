@@ -8,6 +8,8 @@ authors:
 - Chen Li
 - Zhanpeng Jin
 - Yang Gao
+corresponding_authors:
+- Yang Gao
 date: '2026-01-01'
 publishDate: '2026-01-01T00:00:00Z'
 publication_types:

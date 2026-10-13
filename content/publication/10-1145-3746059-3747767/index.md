@@ -9,6 +9,8 @@ authors:
 - Haichuan Song
 - Zhanpeng Jin
 - Yang Gao
+corresponding_authors:
+- Yang Gao
 date: '2025-10-01'
 publishDate: '2025-10-09T11:53:01.574588Z'
 publication_types:

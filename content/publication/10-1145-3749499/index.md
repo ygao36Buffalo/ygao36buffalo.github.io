@@ -8,6 +8,8 @@ authors:
 - Yuting Bai
 - ZhanPeng Jin
 - Yang Gao
+corresponding_authors:
+- Yang Gao
 date: '2025-09-01'
 publishDate: '2025-10-09T11:53:01.586001Z'
 publication_types:
