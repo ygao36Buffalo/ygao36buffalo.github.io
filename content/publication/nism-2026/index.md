@@ -7,8 +7,6 @@ authors:
 - Chenxu Zhang
 - Wenbo Zhang
 - Zhanpeng Jin
-corresponding_authors:
-- Zhanpeng Jin
 author_notes:
 - ''
 - ''
