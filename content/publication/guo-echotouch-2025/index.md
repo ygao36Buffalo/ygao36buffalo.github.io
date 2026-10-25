@@ -1,4 +1,6 @@
 ---
+thumbnail_secondary: thumbnail-secondary.webp
+thumbnail_secondary_alt: "EchoTouch microphone, speaker, and glasses hardware from Figure 4."
 title: 'EchoTouch: Low-power Face-touching Behavior Recognition Using Active Acoustic
   Sensing on Glasses'
 authors:
@@ -39,3 +41,5 @@ image:
   alt_text: "EchoTouch glasses distinguish face-touching location and manner while filtering unrelated actions."
   preview_only: false
 ---
+
+![EchoTouch microphone, speaker, and glasses hardware from Figure 4.](thumbnail-secondary.webp)

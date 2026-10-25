@@ -1,4 +1,6 @@
 ---
+thumbnail_secondary: thumbnail-secondary.webp
+thumbnail_secondary_alt: "Wrist2Finger ring and watch prototypes with their sensing electronics from Figure 4."
 title: 'Wrist2Finger: Sensing Fingertip Force for Force-Aware Hand Interaction with
   a Ring-Watch Wearable'
 authors:
@@ -51,3 +53,5 @@ image:
   alt_text: "Wrist2Finger supports force-aware interactions in VR, cycling, virtual piano playing, and subway travel."
   preview_only: false
 ---
+
+![Wrist2Finger ring and watch prototypes with their sensing electronics from Figure 4.](thumbnail-secondary.webp)

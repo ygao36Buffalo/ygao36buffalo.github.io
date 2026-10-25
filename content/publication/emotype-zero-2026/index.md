@@ -1,4 +1,6 @@
 ---
+thumbnail_secondary: thumbnail-secondary.webp
+thumbnail_secondary_alt: "EmoType-Zero design space for geometry, texture, and motion from Figure 2."
 list_summary: "Expressive typography conveys speech emotion through shape, texture, and motion."
 title: "EmoType-Zero: Adaptive Fonts to Render the Speech Emotion"
 authors:
@@ -41,3 +43,5 @@ author_notes:
 - ""
 reading_time: false
 ---
+
+![EmoType-Zero design space for geometry, texture, and motion from Figure 2.](thumbnail-secondary.webp)

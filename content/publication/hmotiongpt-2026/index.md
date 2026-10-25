@@ -1,4 +1,6 @@
 ---
+thumbnail_secondary: thumbnail-secondary.webp
+thumbnail_secondary_alt: "HMotionGPT smart-ring prototype, daily interaction, and data flow from Figure 2."
 list_summary: "Connecting smart-ring motion signals with language for activity understanding."
 title: "HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings"
 authors:
@@ -48,3 +50,5 @@ author_notes:
 - "Corresponding author"
 reading_time: false
 ---
+
+![HMotionGPT smart-ring prototype, daily interaction, and data flow from Figure 2.](thumbnail-secondary.webp)

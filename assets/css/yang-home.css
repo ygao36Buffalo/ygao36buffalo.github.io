@@ -524,6 +524,22 @@ main > .section:first-child {
   object-fit: contain;
 }
 
+.publication-image--stacked,
+.publication-image--natural {
+  aspect-ratio: auto;
+}
+
+.publication-image--stacked {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.publication-image--stacked img,
+.publication-image--natural img {
+  height: auto;
+  max-height: 200px;
+}
+
 .publication-image:focus-visible {
   outline: 3px solid var(--accent-strong);
   outline-offset: 3px;

@@ -1,4 +1,6 @@
 ---
+thumbnail_secondary: thumbnail-secondary.webp
+thumbnail_secondary_alt: "From Wrist to Finger biomechanics and complementary IMU and EMG signals from Figure 1."
 list_summary: "Reconstructing 3D hand pose from an IMU ring and wrist-worn EMG sensors."
 thumbnail_project: /project/From-wrist-to-finger
 thumbnail_alt: "IMU ring components and an EMG wrist wearable for hand pose tracking."
@@ -32,3 +34,5 @@ links:
 - name: URL
   url: https://dl.acm.org/doi/10.1145/3706599.3720220
 ---
+
+![From Wrist to Finger biomechanics and complementary IMU and EMG signals from Figure 1.](thumbnail-secondary.webp)

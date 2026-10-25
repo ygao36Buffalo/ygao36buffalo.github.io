@@ -1,4 +1,6 @@
 ---
+thumbnail_secondary: thumbnail-secondary.webp
+thumbnail_secondary_alt: "KineticsSense sensor placement and dataset collection setup from Figure 3."
 title: 'KineticsSense: A Multimodal Wearable Sensor Framework for Modeling Lower-Limb
   Motion Kinetics'
 authors:
@@ -46,3 +48,5 @@ image:
   alt_text: "KineticsSense combines IMUs and plantar pressure sensors to model motion and predict lower-limb muscle activation."
   preview_only: false
 ---
+
+![KineticsSense sensor placement and dataset collection setup from Figure 3.](thumbnail-secondary.webp)

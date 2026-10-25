@@ -1,4 +1,6 @@
 ---
+thumbnail_secondary: thumbnail-secondary.webp
+thumbnail_secondary_alt: "Persona-E2 dataset composition across news, social media, and life experience from Figure 2."
 list_summary: "A dataset of personality-shaped emotional responses to everyday textual events."
 title: "Persona-E²: A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events"
 authors:
@@ -53,3 +55,5 @@ links:
   url: https://scut-hai.github.io/Persona-E2/
 reading_time: false
 ---
+
+![Persona-E2 dataset composition across news, social media, and life experience from Figure 2.](thumbnail-secondary.webp)

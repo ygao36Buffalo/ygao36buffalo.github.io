@@ -8,9 +8,18 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
+{{- $secondary := false -}}
+{{- with $paper.Params.thumbnail_secondary -}}
+  {{- $secondary = $paper.Resources.GetMatch . -}}
+{{- end -}}
 {{- with $image -}}
   {{- $thumb := .Fit "640x420 webp q85" -}}
-  <a class="publication-image" href="{{ $paper.RelPermalink }}">
+  {{- $ratio := div (float .Width) .Height -}}
+  <a class="publication-image{{ if $secondary }} publication-image--stacked{{ else if or (gt $ratio 2.6) (lt $ratio 1.0) }} publication-image--natural{{ end }}" href="{{ $paper.RelPermalink }}">
     <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $paper.Params.thumbnail_alt | default (printf "Research overview for %s" $paper.Title) }}" loading="lazy" decoding="async">
+    {{- with $secondary -}}
+      {{- $secondThumb := .Fit "640x420 webp q85" -}}
+      <img src="{{ $secondThumb.RelPermalink }}" width="{{ $secondThumb.Width }}" height="{{ $secondThumb.Height }}" alt="{{ $paper.Params.thumbnail_secondary_alt | default (printf "Additional figure from %s" $paper.Title) }}" loading="lazy" decoding="async">
+    {{- end -}}
   </a>
 {{- end -}}
