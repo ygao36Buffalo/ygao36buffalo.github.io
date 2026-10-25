@@ -11,7 +11,7 @@
 {{- $recentPubs := where $pubs "Date" "ge" (time "2024-01-01") -}}
 {{- $olderPubs := where $pubs "Date" "lt" (time "2024-01-01") -}}
 {{- $projects := sort (where site.RegularPages "Section" "project") "Date" "desc" -}}
-{{- $courses := sort (where site.RegularPages "Section" "teaching") "Date" "desc" -}}
+{{- $courses := site.Data.teaching -}}
 {{- $nameEn := printf "%s %s" $author.Params.first_name $author.Params.last_name -}}
 <!doctype html>
 <html lang="{{ site.Language.Lang | default "en" }}">
@@ -40,7 +40,6 @@
       <a href="#openings">Openings</a>
       <a href="#publications">Publications</a>
       <a href="#projects">Projects</a>
-      <a href="#teaching">Teaching</a>
       <a href="/gallery/">Gallery</a>
     </div>
   </nav>
@@ -151,7 +150,7 @@
         </div>
         <ul class="clean-list">
           {{- range $courses -}}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            <li>{{ .title }} <span>{{ .academic_year }}</span></li>
           {{- end -}}
         </ul>
       </div>
