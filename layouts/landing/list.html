@@ -194,10 +194,9 @@
         <div class="publication-list">
           {{- range .Pages -}}
             {{- $publication := . -}}
-            <article class="publication-item">
-              <div class="publication-image" aria-hidden="true">
-                <div class="pub-year-card">{{ .Date.Format "2006" }}</div>
-              </div>
+            {{- $thumbnail := partial "publication-thumbnail.html" . -}}
+            <article class="publication-item{{ if not $thumbnail }} publication-item--text-only{{ end }}">
+              {{ $thumbnail }}
               <div class="publication-content">
                 <h4 class="publication-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
                 <p class="publication-authors">
@@ -238,10 +237,9 @@
       <div class="publication-list">
         {{- range $olderPubs -}}
           {{- $publication := . -}}
-          <article class="publication-item">
-            <div class="publication-image" aria-hidden="true">
-              <div class="pub-year-card">{{ .Date.Format "2006" }}</div>
-            </div>
+          {{- $thumbnail := partial "publication-thumbnail.html" . -}}
+          <article class="publication-item{{ if not $thumbnail }} publication-item--text-only{{ end }}">
+            {{ $thumbnail }}
             <div class="publication-content">
               <h4 class="publication-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
               <p class="publication-authors">

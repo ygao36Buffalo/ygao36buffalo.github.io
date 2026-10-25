@@ -1,4 +1,6 @@
 ---
+thumbnail_project: /project/PressInPose
+thumbnail_alt: "PressInPose virtual motion generation and synthetic IMU data augmentation pipeline."
 title: 'PressInPose: Integrating Pressure and Inertial Sensors for Full-Body Pose
   Estimation in Activities'
 authors:

@@ -1,0 +1,16 @@
+{{- /* Prefer the paper's own image, then an explicitly linked project image. */ -}}
+{{- $paper := . -}}
+{{- $image := .Resources.GetMatch "featured.*" -}}
+{{- if not $image -}}
+  {{- with .Params.thumbnail_project -}}
+    {{- with site.GetPage . -}}
+      {{- $image = .Resources.GetMatch "featured.*" -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $image -}}
+  {{- $thumb := .Fit "640x420 webp q85" -}}
+  <a class="publication-image" href="{{ $paper.RelPermalink }}">
+    <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $paper.Params.thumbnail_alt | default (printf "Research overview for %s" $paper.Title) }}" loading="lazy" decoding="async">
+  </a>
+{{- end -}}

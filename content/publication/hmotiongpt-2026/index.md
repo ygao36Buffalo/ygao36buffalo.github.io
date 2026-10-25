@@ -1,4 +1,6 @@
 ---
+thumbnail_project: /project/HMotionGPT
+thumbnail_alt: "Smart-ring hardware, everyday use, and the HMotionGPT activity-understanding pipeline."
 title: 'HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings'
 authors:
 - Yang Gao
