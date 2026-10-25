@@ -25,6 +25,12 @@ tags:
 links:
 - name: ACM Digital Library
   url: https://dl.acm.org/doi/10.1145/3714394.3756244
+list_summary: "Empathetic reasoning and reinforcement learning for emotionally supportive dialogue."
+thumbnail_alt: "MindChat-R0 trains an emotionally supportive language model using empathetic chain-of-thought reasoning and GRPO."
+image:
+  caption: "Figure 2 from the paper."
+  alt_text: "MindChat-R0 trains an emotionally supportive language model using empathetic chain-of-thought reasoning and GRPO."
+  preview_only: false
 ---
 
 **Recognition:** 10th Mental Health Workshop Best Paper Honorable Mention

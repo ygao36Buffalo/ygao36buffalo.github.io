@@ -32,4 +32,10 @@ abstract: Accurately recognizing face-touching behavior at any time and place ca
 links:
 - name: URL
   url: https://dl.acm.org/doi/10.1145/3729481
+list_summary: "Acoustic sensing on glasses identifies face-touching locations and behaviors."
+thumbnail_alt: "EchoTouch glasses distinguish face-touching location and manner while filtering unrelated actions."
+image:
+  caption: "Figure 1 from the paper."
+  alt_text: "EchoTouch glasses distinguish face-touching location and manner while filtering unrelated actions."
+  preview_only: false
 ---

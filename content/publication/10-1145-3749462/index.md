@@ -39,4 +39,10 @@ tags:
 links:
 - name: URL
   url: https://doi.org/10.1145/3749462
+list_summary: "IMUs and plantar pressure sensors model lower-limb motion and muscle activation."
+thumbnail_alt: "KineticsSense combines IMUs and plantar pressure sensors to model motion and predict lower-limb muscle activation."
+image:
+  caption: "Figure 1 from the paper."
+  alt_text: "KineticsSense combines IMUs and plantar pressure sensors to model motion and predict lower-limb muscle activation."
+  preview_only: false
 ---

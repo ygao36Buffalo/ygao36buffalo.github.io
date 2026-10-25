@@ -44,4 +44,10 @@ tags:
 links:
 - name: URL
   url: https://doi.org/10.1145/3746059.3747767
+list_summary: "A ring-watch wearable estimates fingertip force for everyday hand interaction."
+thumbnail_alt: "Wrist2Finger supports force-aware interactions in VR, cycling, virtual piano playing, and subway travel."
+image:
+  caption: "Figure 1 from the paper."
+  alt_text: "Wrist2Finger supports force-aware interactions in VR, cycling, virtual piano playing, and subway travel."
+  preview_only: false
 ---

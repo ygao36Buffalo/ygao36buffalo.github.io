@@ -42,4 +42,10 @@ tags:
 links:
 - name: URL
   url: https://doi.org/10.1145/3749499
+list_summary: "Estimating plantar pressure from wearable IMU signals for gait analysis."
+thumbnail_alt: "Motion2Press transfers wearable IMU signals to plantar pressure estimates for gait analysis."
+image:
+  caption: "Figure 1 from the paper."
+  alt_text: "Motion2Press transfers wearable IMU signals to plantar pressure estimates for gait analysis."
+  preview_only: false
 ---
