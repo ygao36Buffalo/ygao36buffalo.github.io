@@ -31,4 +31,9 @@ tags:
 - IMU
 - EMG
 - Wearable Computing
+thumbnail_alt: "NiSM maps grasp intention, planning, and execution to structured fingertip force estimation using IMU and sEMG signals."
+image:
+  caption: "Overview of the neuro-inspired structured model (NiSM)."
+  alt_text: "NiSM maps grasp intention, planning, and execution to structured fingertip force estimation using IMU and sEMG signals."
+  preview_only: false
 ---

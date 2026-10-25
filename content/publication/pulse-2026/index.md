@@ -41,4 +41,9 @@ tags:
 - Multimodal Sensing
 - Sensorimotor Coordination
 - Wearable Computing
+thumbnail_alt: "PULSE five-modality sensing setup with motion capture, sEMG, gaze tracking, IMUs, and finger-level pressure sensors."
+image:
+  caption: "PULSE data collection setup."
+  alt_text: "PULSE five-modality sensing setup with motion capture, sEMG, gaze tracking, IMUs, and finger-level pressure sensors."
+  preview_only: false
 ---
