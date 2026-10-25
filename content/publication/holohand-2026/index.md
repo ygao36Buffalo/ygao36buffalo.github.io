@@ -1,4 +1,5 @@
 ---
+hide_list_abstract: true
 title: "HoloHand: Bidirectional Motion–Language Modeling for Semantic Hand Interaction in Immersive Environments"
 authors:
 - "Yingjing Xiao"

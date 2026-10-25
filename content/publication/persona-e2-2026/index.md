@@ -1,4 +1,5 @@
 ---
+list_summary: "A dataset of personality-shaped emotional responses to everyday textual events."
 title: "Persona-E²: A Human-Grounded Dataset for Personality-Shaped Emotional Responses to Textual Events"
 authors:
 - "Yuqin Yang"

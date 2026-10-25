@@ -1,4 +1,5 @@
 ---
+list_summary: "Benchmarking emotion recognition with conflicting or missing multimodal cues."
 title: "EmoMM: Benchmarking and Steering MLLM for Multimodal Emotion Recognition under Conflict and Missingness"
 authors:
 - "Yueru Sun"

@@ -1,4 +1,5 @@
 ---
+list_summary: "Expressive typography conveys speech emotion through shape, texture, and motion."
 title: "EmoType-Zero: Adaptive Fonts to Render the Speech Emotion"
 authors:
 - "Dong She"

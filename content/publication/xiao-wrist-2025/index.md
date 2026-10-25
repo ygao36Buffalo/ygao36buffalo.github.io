@@ -1,4 +1,5 @@
 ---
+list_summary: "Reconstructing 3D hand pose from an IMU ring and wrist-worn EMG sensors."
 thumbnail_project: /project/From-wrist-to-finger
 thumbnail_alt: "IMU ring components and an EMG wrist wearable for hand pose tracking."
 title: 'From Wrist to Finger: Hand Pose Tracking Using Ring-Watch Wearables'

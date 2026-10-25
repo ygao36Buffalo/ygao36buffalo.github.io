@@ -217,7 +217,7 @@
                     {{- range . -}}<span>{{ . }}</span>{{- end -}}
                   </div>
                 {{- end -}}
-                {{- with .Params.abstract -}}<p class="publication-abstract">{{ . | plainify | truncate 260 }}</p>{{- end -}}
+                {{- partial "publication-summary.html" . -}}
                 <div class="publication-actions">
                   <a href="{{ .RelPermalink }}">Details</a>
                   {{- with .Params.doi -}}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer">DOI</a>{{- end -}}
@@ -259,7 +259,7 @@
                   {{- range . -}}<span>{{ . }}</span>{{- end -}}
                 </div>
               {{- end -}}
-              {{- with .Params.abstract -}}<p class="publication-abstract">{{ . | plainify | truncate 260 }}</p>{{- end -}}
+              {{- partial "publication-summary.html" . -}}
               <div class="publication-actions">
                 <a href="{{ .RelPermalink }}">Details</a>
                 {{- with .Params.doi -}}<a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer">DOI</a>{{- end -}}

@@ -1,4 +1,5 @@
 ---
+list_summary: "Structured empathy reasoning and reinforcement learning for supportive dialogue."
 title: "Empathy-R1: A Chain-of-Empathy and Reinforcement Learning Framework for Long-Form Mental Health Support"
 authors:
 - "Xianrong Yao"

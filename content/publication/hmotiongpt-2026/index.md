@@ -1,4 +1,5 @@
 ---
+list_summary: "Connecting smart-ring motion signals with language for activity understanding."
 title: "HMotionGPT: Aligning Hand Motions and Natural Language for Activity Understanding with Smart Rings"
 authors:
 - "Yang Gao"

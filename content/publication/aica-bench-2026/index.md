@@ -1,4 +1,5 @@
 ---
+list_summary: "Evaluating vision-language models on affective image understanding and reasoning."
 title: "AICA-Bench: Holistically Examining the Capabilities of VLMs in Affective Image Content Analysis"
 authors:
 - "Dong She"

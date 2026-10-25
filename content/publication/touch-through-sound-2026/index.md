@@ -1,4 +1,5 @@
 ---
+list_summary: "Ring-mounted audio creates material sensations through touch-responsive sound."
 title: "Touch Through Sound: Ring-Mounted Auditory Pseudo-Haptics for Material Perception"
 authors:
 - "Zhengte Cai"

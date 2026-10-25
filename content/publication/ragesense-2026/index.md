@@ -1,4 +1,5 @@
 ---
+list_summary: "Acoustic sensing and LLM-guided support for emotion regulation in mobile gaming."
 title: "RageSense: Leveraging Acoustic Sensing and LLM-Based Intervention for Emotion Regulation in Mobile Gaming"
 authors:
 - "Cong Liu"

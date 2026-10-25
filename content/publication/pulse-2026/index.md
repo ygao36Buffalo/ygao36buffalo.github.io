@@ -1,4 +1,5 @@
 ---
+hide_list_abstract: true
 title: 'PULSE: A Synchronized Five-Modality Dataset for Sensorimotor Coordination in Long-Horizon Daily Activities'
 authors:
 - Wolin Liang

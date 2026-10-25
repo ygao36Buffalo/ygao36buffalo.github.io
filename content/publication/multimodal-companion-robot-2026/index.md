@@ -1,4 +1,5 @@
 ---
+list_summary: "A companion robot coordinates speech, expressions, and movement for older adults."
 title: 'Design of a Multimodal Companion Robot for Elderly Care: Enhancing Affective Intelligence with Context-Aware Enactments'
 authors:
 - Tianqiang Yan

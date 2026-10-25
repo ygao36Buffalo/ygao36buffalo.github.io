@@ -1,4 +1,5 @@
 ---
+list_summary: "Virtual sand painting with AI guidance, gesture interaction, and sound feedback."
 thumbnail_project: /project/SandTouch
 thumbnail_alt: "A participant creates virtual sand art using hand gestures and AI guidance in SandTouch."
 title: 'SandTouch: Empowering Virtual Sand Art in VR with AI Guidance and Emotional

@@ -1,4 +1,5 @@
 ---
+hide_list_abstract: true
 title: "EmbodiedRecall: A Ring-to-Glasses System for Preserving Valuable, Fleeting Moments in Daily Activities"
 authors:
 - "Zhichao Huang"

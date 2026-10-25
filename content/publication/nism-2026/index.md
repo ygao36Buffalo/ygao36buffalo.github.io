@@ -1,4 +1,5 @@
 ---
+list_summary: "Neuro-inspired fingertip force estimation from a single IMU ring and EMG channel."
 title: 'Trading Sensing for Structure: Sparse IMU-EMG Fingertip Force Estimation via Neuro-inspired Structured Modeling'
 authors:
 - Yang Gao
