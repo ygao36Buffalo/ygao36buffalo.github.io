@@ -1,19 +1,19 @@
 ---
-title: 'EmoType-Zero: Adaptive Fonts to Render the Speech Emotion'
+title: "EmoType-Zero: Adaptive Fonts to Render the Speech Emotion"
 authors:
-- Dong She
-- Jinghe Yu
-- Nuo Chen
-- Yuting Bai
-- Yang Gao
-- Zhanpeng Jin
-date: '2026-01-01'
+- "Dong She"
+- "Jinghe Yu"
+- "Nuo Chen"
+- "Yuting Bai"
+- "Yang Gao"
+- "Zhanpeng Jin"
+date: "2026-04-13"
 publishDate: '2026-01-01T00:00:00Z'
 publication_types:
-- paper-conference
-publication: '*Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026 Extended Abstracts)*'
-doi: 10.1145/3772363.3798656
-abstract: EmoType-Zero studies adaptive fonts as a way to render speech emotion in text. Instead of treating text as emotionally neutral, the project explores how typography can communicate affective cues from speech and make emotional nuance more visible in written communication. This work contributes to affective interaction, expressive text interfaces, and accessible emotional communication.
+- "paper-conference"
+publication: "*Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026 Extended Abstracts)*"
+doi: "10.1145/3772363.3798656"
+abstract: "EmoType-Zero translates emotional cues in speech into expressive typography through geometry, texture, and motion. A co-design study with nine participants informed the design space, followed by an evaluation with 25 participants. Results reveal a trade-off between emotional fidelity and text legibility, with subtle geometric changes preferred for everyday messaging."
 tags:
 - CHI
 - Affective Interaction
@@ -21,6 +21,22 @@ tags:
 - Speech Emotion
 - Text Interfaces
 links:
-- name: ACM Digital Library
+- name: "ACM Digital Library"
   url: https://dl.acm.org/doi/10.1145/3772363.3798656
+thumbnail_alt: "EmoType-Zero compares plain voice-to-text messages with emotion-expressive typography."
+image:
+  caption: "Figure 1 from the paper."
+  alt_text: "EmoType-Zero compares plain voice-to-text messages with emotion-expressive typography."
+  preview_only: false
+equal_contribution_authors:
+- "Dong She"
+- "Jinghe Yu"
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- ""
+- ""
+- ""
+- ""
+reading_time: false
 ---
