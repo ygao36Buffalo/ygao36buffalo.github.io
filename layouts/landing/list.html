@@ -192,7 +192,8 @@
           <span>{{ len .Pages }} papers</span>
         </div>
         <div class="publication-list">
-          {{- range .Pages -}}
+          {{- $priorityPubs := sort (where .Pages "Params.publication_priority" "gt" 0) "Params.publication_priority" "desc" -}}
+          {{- range (union $priorityPubs .Pages) -}}
             {{- $publication := . -}}
             {{- $thumbnail := partial "publication-thumbnail.html" . -}}
             <article class="publication-item{{ if not $thumbnail }} publication-item--text-only{{ end }}">

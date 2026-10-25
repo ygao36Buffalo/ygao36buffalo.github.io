@@ -24,9 +24,13 @@ author_notes:
 - ''
 date: '2026-09-26'
 publishDate: '2026-09-26T00:00:00+08:00'
+publication_priority: 2
+hide_date: true
+show_date_updated: false
+reading_time: false
 publication_types:
 - paper-conference
-publication: '*NeurIPS 2026, Evaluations and Datasets Track* (accepted, **Spotlight**)'
+publication: '*NeurIPS 2026, Evaluations and Datasets Track* (accepted, forthcoming; **Spotlight**)'
 awards:
 - Spotlight
 abstract: >-
