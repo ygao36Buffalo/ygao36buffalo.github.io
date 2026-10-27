@@ -12,7 +12,7 @@ date: '2025-09-01'
 publishDate: '2025-10-09T11:53:01.594161Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp 2025)*'
 doi: 10.1145/3749462
 abstract: Current human motion analysis primarily emphasizes kinematics, often neglecting
   underlying biomechanical factors such as muscle activation and force generation.
