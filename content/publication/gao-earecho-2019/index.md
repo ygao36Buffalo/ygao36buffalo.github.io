@@ -10,7 +10,7 @@ date: '2019-09-01'
 publishDate: '2025-07-06T09:47:45.963741Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp)*'
+publication: '*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp 2019)*'
 doi: 10.1145/3351239
 awards:
 - IMWUT 2019 Distinguished Papers Nominee
