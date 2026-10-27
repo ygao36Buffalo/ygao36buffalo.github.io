@@ -18,7 +18,7 @@ date: "2026-07-02"
 publishDate: '2026-01-01T00:00:00Z'
 publication_types:
 - "paper-conference"
-publication: "*Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (ACL 2026, Main Conference)*, pp. 29290–29315"
+publication: "*Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026, Main Conference)*"
 abstract: "Persona-E² is a human-grounded dataset of personality-shaped emotional responses to textual events across news, social media, and life narratives. Annotations combine MBTI and Big Five traits with reader appraisals, enabling evaluation of emotional diversity and personality-conditioned LLM reasoning. Experiments show that personality information improves appraisal prediction, while current models still struggle to reproduce human emotional variation."
 tags:
 - ACL

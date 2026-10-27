@@ -31,7 +31,7 @@ show_date_updated: false
 reading_time: false
 publication_types:
 - paper-conference
-publication: '*NeurIPS 2026, Evaluations and Datasets Track* (accepted, forthcoming; **Spotlight**)'
+publication: '*NeurIPS 2026, Evaluations and Datasets Track* (accepted; **Spotlight**)'
 awards:
 - Spotlight
 abstract: >-

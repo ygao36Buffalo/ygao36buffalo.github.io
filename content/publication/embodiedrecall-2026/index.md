@@ -34,7 +34,7 @@ date: "2026-09-30"
 publishDate: '2026-09-26T00:00:00+08:00'
 publication_types:
 - "article-journal"
-publication: "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp 2026)*, 10(3), Article 111"
+publication: "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp 2026)*"
 abstract: "EmbodiedRecall combines dual IMU rings, smart glasses, and multimodal language-model reasoning to identify meaningful everyday moments. Private prompts and a confirm-to-commit interaction let users save short clips from a rolling buffer. A controlled study with 20 participants and a six-day deployment with 13 participants examine capture-intent recognition, user agency, and preservation of otherwise overlooked moments."
 tags:
 - IMWUT

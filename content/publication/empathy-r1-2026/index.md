@@ -14,7 +14,7 @@ authors:
 date: "2026-01-01"
 publication_types:
 - "article-journal"
-publication: "*IEEE Transactions on Affective Computing (IEEE TAFFC, 2026)*, pp. 1–16"
+publication: "*IEEE Transactions on Affective Computing (IEEE TAFFC, 2026)*"
 doi: "10.1109/TAFFC.2026.3732970"
 thumbnail_alt: "Empathy-R1 training pipeline with Chain-of-Empathy supervision, reinforcement learning, and contrastive empathetic learning."
 image:

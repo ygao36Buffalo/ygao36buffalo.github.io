@@ -24,7 +24,7 @@ date: "2026-09-30"
 publishDate: '2026-09-26T00:00:00+08:00'
 publication_types:
 - "article-journal"
-publication: "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp 2026)*, 10(3), Article 173"
+publication: "*Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (PACM IMWUT / UbiComp 2026)*"
 abstract: "HoloHand connects hand motion and natural language in both directions for mixed-reality interaction. It describes observed hand actions in terms of intent and coordination, and turns language-level intentions into ghost-hand previews. Discrete motion tokenization and a shared motion–language interface support semantic interpretation and feedback in an MR prototype."
 tags:
 - IMWUT

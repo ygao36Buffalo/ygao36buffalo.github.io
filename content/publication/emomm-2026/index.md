@@ -13,7 +13,7 @@ authors:
 date: "2026-07-02"
 publication_types:
 - "paper-conference"
-publication: "*Findings of the Association for Computational Linguistics: ACL 2026 (ACL 2026 Findings)*, pp. 20351–20371"
+publication: "*Findings of the Association for Computational Linguistics: ACL 2026 (ACL 2026 Findings)*"
 doi: "10.18653/v1/2026.findings-acl.1018"
 thumbnail_alt: "EmoMM modality-conflict example and the CHASE attention-steering mechanism."
 image:

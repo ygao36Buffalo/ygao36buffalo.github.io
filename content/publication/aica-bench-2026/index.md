@@ -11,7 +11,7 @@ authors:
 date: "2026-07-02"
 publication_types:
 - "paper-conference"
-publication: "*Findings of the Association for Computational Linguistics: ACL 2026 (ACL 2026 Findings)*, pp. 13501–13528"
+publication: "*Findings of the Association for Computational Linguistics: ACL 2026 (ACL 2026 Findings)*"
 doi: "10.18653/v1/2026.findings-acl.661"
 thumbnail_alt: "AICA-Bench examples of emotion understanding, emotion reasoning, and emotion-guided content generation."
 image:

@@ -10,7 +10,7 @@ date: '2025-10-12'
 publishDate: '2025-12-29T00:00:00Z'
 publication_types:
 - paper-conference
-publication: '*Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp Companion 2025)*, pp. 1209-1216'
+publication: '*Companion of the 2025 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp Companion 2025)*'
 doi: 10.1145/3714394.3756244
 awards:
 - 10th Mental Health Workshop Best Paper Honorable Mention

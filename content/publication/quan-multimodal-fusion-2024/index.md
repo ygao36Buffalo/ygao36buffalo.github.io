@@ -9,7 +9,7 @@ date: '2024-08-27'
 publishDate: '2024-08-27T00:00:00Z'
 publication_types:
 - article-journal
-publication: '*CCF Transactions on Pervasive Computing and Interaction (TPCI)*, 6, 380-393'
+publication: '*CCF Transactions on Pervasive Computing and Interaction (TPCI)*'
 doi: 10.1007/s42486-024-00164-x
 awards:
 - TPCI 2025 Best Paper
